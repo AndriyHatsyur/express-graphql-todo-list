@@ -1,0 +1,33 @@
+{
+  "name": "express-graphql-todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriyHatsyur/express-graphql-todo-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriyHatsyur/express-graphql-todo-list/issues"
+  },
+  "homepage": "https://github.com/AndriyHatsyur/express-graphql-todo-list#readme",
+  "dependencies": {
+    "apollo-server-core": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "express": "^4.17.1",
+    "fluture": "^14.0.0",
+    "graphql": "^15.6.0",
+    "graphql-tools": "^8.2.0",
+    "mongodb": "^4.1.2",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
